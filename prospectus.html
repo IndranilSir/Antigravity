@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prospectus | Indranil Sir</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .prospectus-section {
+            padding: 120px 20px 80px;
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+
+        .download-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            margin-top: 40px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .download-options {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .btn-download {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .btn-pdf {
+            background: #ef4444;
+            color: white;
+            box-shadow: 0 10px 20px rgba(239, 68, 68, 0.3);
+        }
+
+        .btn-pdf:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(239, 68, 68, 0.4);
+        }
+
+        .btn-docx {
+            background: #3b82f6;
+            color: white;
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+        }
+
+        .btn-docx:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(59, 130, 246, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo-text">
+                <i class="fas fa-graduation-cap"></i> Indranil Sir
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#courses" class="nav-link">Courses</a></li>
+                <li><a href="prospectus.html" class="nav-link active">Prospectus</a></li>
+                <li><button class="btn-portal" onclick="window.location.href='index.html?portal=true'">Student
+                        Portal</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="prospectus-section">
+            <div class="section-header">
+                <h1>Institute Prospectus</h1>
+                <div class="underline"></div>
+                <p>Download our detailed prospectus to learn more about our courses, fees, and placement assistance.</p>
+            </div>
+
+            <div class="download-card">
+                <i class="fas fa-file-invoice fa-4x" style="color: var(--accent-light); margin-bottom: 20px;"></i>
+                <h3>Download Options</h3>
+                <p style="color: #94a3b8; margin-top: 10px;">Available in PDF and DOCX formats</p>
+
+                <div class="download-options">
+                    <a href="Prospectus.pdf" class="btn-download btn-pdf" download>
+                        <i class="fas fa-file-pdf"></i> Download PDF
+                    </a>
+                    <a href="Prospectus.docx" class="btn-download btn-docx" download>
+                        <i class="fas fa-file-word"></i> Download DOCX
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h4>Indranil Sir</h4>
+                    <p>Ikon Computer Education & Training Institute</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#courses">Courses</a>
+                    <a href="prospectus.html">Prospectus</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ikon Computer Education. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

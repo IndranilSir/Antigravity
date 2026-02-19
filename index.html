@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indranil Sir | Ikon Computer Education & Training Institute</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Top Glowing Header -->
+    <div class="glowing-header">
+        Ikon Computer Education & Training Institute
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo-text">
+                <i class="fas fa-graduation-cap"></i> Indranil Sir
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-page="home">About</a></li>
+                <li><a href="#courses" class="nav-link" data-page="home">Courses</a></li>
+                <li><a href="prospectus.html" class="nav-link">Prospectus</a></li>
+                <li><button class="btn-portal" id="btn-portal-login">Student Portal</button></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Website Content (Landing Page) -->
+    <main id="landing-page">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="hero-badge">Empowering Future Tech Leaders</span>
+                <h1>Master Computer Science with <span class="gradient-text">Indranil Sir</span></h1>
+                <p>Expert guidance in Programming, Data Science, and Computer Applications. Join hundreds of successful
+                    students building their future today.</p>
+                <div class="hero-btns">
+                    <button class="btn-primary-lg" onclick="document.getElementById('courses').scrollIntoView()">Explore
+                        Courses</button>
+                    <button class="btn-secondary-lg" id="btn-hero-portal">Student Login</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="assets/hero_banner_optimized.png" alt="Ikon Computer Education Institute - Hero Banner"
+                    class="hero-image">
+            </div>
+        </section>
+
+        <!-- Features/Stats -->
+        <section class="stats-section">
+            <div class="stat-item">
+                <h3>500+</h3>
+                <p>Students Trained</p>
+            </div>
+            <div class="stat-item">
+                <h3>15+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+                <h3>100%</h3>
+                <p>Practical Focus</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="section-header">
+                <h2>About the Institute</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to <strong>Ikon Computer Education & Training Institute</strong>. We are dedicated to
+                        providing high-quality computer education to students of all backgrounds. Under the guidance of
+                        Indranil Sir, we focus on practical learning, industry-relevant skills, and holistic student
+                        development.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Experienced Faculty</li>
+                        <li><i class="fas fa-check-circle"></i> Modern Lab Infrastructure</li>
+                        <li><i class="fas fa-check-circle"></i> Certified Courses</li>
+                        <li><i class="fas fa-check-circle"></i> 1-on-1 Mentorship</li>
+                    </ul>
+
+                    <div class="certifications-container">
+                        <h3>Accreditations</h3>
+                        <div class="cert-images">
+                            <img src="assets/cert_msme_optimized.png" alt="MSME Registration"
+                                class="cert-img floating-delay-1">
+                            <img src="assets/cert_iso_optimized.png" alt="ISO 9001:2015 Certification"
+                                class="cert-img floating-delay-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section class="section courses-section" id="courses">
+            <div class="section-header">
+                <h2>Our Courses</h2>
+                <div class="underline"></div>
+                <p>From basics to advanced programming, we have it all.</p>
+            </div>
+            <div class="course-grid">
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>DCA / ADCA</h3>
+                    <p>Diploma & Advanced Diploma in Computer Applications. Complete office automation training.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fab fa-python"></i></div>
+                    <h3>Python Programming</h3>
+                    <p>Learn Python from scratch. Ideal for beginners and data science enthusiasts.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fab fa-java"></i></div>
+                    <h3>Java Development</h3>
+                    <p>Core & Advanced Java training for building robust enterprise applications.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-globe"></i></div>
+                    <h3>Web Development</h3>
+                    <p>Full-stack web development using HTML, CSS, JavaScript, and modern frameworks.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-photo-video"></i></div>
+                    <h3>Multimedia</h3>
+                    <p>Graphic design, video editing, and animation courses for creative minds.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                    <h3>Financial Accounting</h3>
+                    <p>Master Tally, GST, and computerized accounting for business and finance.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Machine Learning</h3>
+                    <p>Unlock the power of AI with hands-on Machine Learning and Data Science training.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-cloud"></i></div>
+                    <h3>Cloud Computing</h3>
+                    <p>Learn AWS, Azure, and cloud infrastructure management for modern IT careers.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>B.C.A.</h3>
+                    <p>Bachelor of Computer Applications. Comprehensive coaching for semester exams.</p>
+                </div>
+                <div class="course-card">
+                    <div class="course-icon"><i class="fas fa-microchip"></i></div>
+                    <h3>B.Tech.</h3>
+                    <p>Bachelor of Technology. Specialized coaching for CS and IT streams.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h4>Indranil Sir</h4>
+                    <p>Ikon Computer Education & Training Institute</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#courses">Courses</a>
+                    <a href="#" id="footer-portal-link">Student Portal</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.facebook.com/profile.php?id=100092205108991" target="_blank"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/indranilsir?igsh=bnFldmg5bmExanAw" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/indranil-pathak-9b99a8199?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                        target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ikon Computer Education. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Student Portal (Hidden Web App) -->
+    <div id="portal-app" class="app-container hidden">
+        <header class="app-header">
+            <div class="app-header-top">
+                <button class="btn-back-home" id="btn-back-home"><i class="fas fa-arrow-left"></i> Back to
+                    Website</button>
+                <div class="user-profile">
+                    <span>Admin</span>
+                    <div class="avatar">A</div>
+                </div>
+            </div>
+            <div class="app-branding">
+                <h1>Student Management Portal</h1>
+                <p>Manage records, fees, and receipts</p>
+            </div>
+            <nav class="app-nav">
+                <button class="app-nav-btn active" data-target="records-section">Student Records</button>
+                <button class="app-nav-btn" data-target="payment-section">Fee Payment</button>
+            </nav>
+        </header>
+
+        <main class="app-main">
+            <!-- Payment Section -->
+            <section id="payment-section" class="portal-section hidden">
+                <div class="card payment-container">
+                    <div class="payment-form-box">
+                        <h2>Record Fee Payment</h2>
+                        <form id="payment-form">
+                            <div class="form-group">
+                                <label for="payment-student-search">Select Student</label>
+                                <input type="text" id="payment-student-search" placeholder="Search by name..."
+                                    list="student-list">
+                                <datalist id="student-list">
+                                    <!-- Populated by JS -->
+                                </datalist>
+                                <input type="hidden" id="selected-student-id">
+                            </div>
+                            <div class="form-group">
+                                <label for="course-name">Course Name</label>
+                                <input type="text" id="course-name" placeholder="e.g. DCA, PGDCA" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="amount-paid"><i class="fas fa-rupee-sign"></i> Amount Paid</label>
+                                <input type="number" id="amount-paid" placeholder="e.g. 5000" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="payment-mode">Payment Mode</label>
+                                <select id="payment-mode">
+                                    <option value="Cash">Cash</option>
+                                    <option value="UPI">UPI</option>
+                                    <option value="Card">Card</option>
+                                    <option value="Bank Transfer">Bank Transfer</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="remarks">Remarks (Optional)</label>
+                                <input type="text" id="remarks" placeholder="Description e.g. July month fee">
+                            </div>
+                            <button type="submit" class="btn-primary">Generate Receipt</button>
+                        </form>
+                    </div>
+
+                    <div class="receipt-preview-box">
+                        <h3>Receipt Preview</h3>
+                        <div id="receipt-card" class="receipt-card">
+                            <div class="receipt-header">
+                                <div class="receipt-logo">
+                                    <!-- Logo will be dynamic -->
+                                    <i class="fas fa-graduation-cap fa-3x" style="color: var(--accent-light);"></i>
+                                </div>
+                                <div class="receipt-title">
+                                    <h4>Ikon Computer Education</h4>
+                                    <p>Training Institute</p>
+                                </div>
+                            </div>
+                            <div class="receipt-body">
+                                <div class="receipt-row">
+                                    <span>Receipt No:</span>
+                                    <span id="rcpt-no">#---</span>
+                                </div>
+                                <div class="receipt-row">
+                                    <span>Date:</span>
+                                    <span id="rcpt-date">--/--/----</span>
+                                </div>
+                                <div class="receipt-divider"></div>
+                                <div class="receipt-row strong">
+                                    <span>Student:</span>
+                                    <span id="rcpt-student">Select a student</span>
+                                </div>
+                                <div class="receipt-row">
+                                    <span>Course:</span>
+                                    <span id="rcpt-course">---</span>
+                                </div>
+                                <div class="receipt-row">
+                                    <span>Mode:</span>
+                                    <span id="rcpt-mode">---</span>
+                                </div>
+                                <div class="receipt-divider"></div>
+                                <div class="receipt-row total">
+                                    <span>Amount Paid:</span>
+                                    <span id="rcpt-amount">&#8377;0.00</span>
+                                </div>
+                            </div>
+                            <div class="receipt-footer">
+                                <p>Thank you for your payment!</p>
+                                <p class="small">indranilsir.kesug.com</p>
+                            </div>
+                        </div>
+                        <div class="receipt-actions hidden" id="receipt-actions">
+                            <button id="btn-share-whatsapp" class="btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Share
+                            </button>
+                            <button id="btn-print-receipt" class="btn-secondary">
+                                <i class="fas fa-print"></i> Print
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Student Records Section -->
+            <section id="records-section" class="portal-section">
+                <div class="card form-card">
+                    <h2>Add New Student</h2>
+                    <form id="student-form">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" placeholder=" e.g. John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address</label>
+                                <input type="text" id="address" placeholder=" e.g. 123 Main St" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder=" e.g. john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone no</label>
+                                <input type="tel" id="phone" placeholder=" e.g. 9876543210" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-primary">Add Student</button>
+                    </form>
+                </div>
+
+                <div class="card list-card">
+                    <div class="list-header">
+                        <h2>Student Database</h2>
+                        <input type="text" id="search-bar" placeholder="Search students..."
+                            aria-label="Search students">
+                    </div>
+                    <div class="table-container">
+                        <table id="student-table">
+                            <thead>
+                                <tr>
+                                    <th>Address</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Joined</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- JS Populated -->
+                            </tbody>
+                        </table>
+                        <div id="no-records" class="empty-state" style="display: none;">
+                            <p>No student records found.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
